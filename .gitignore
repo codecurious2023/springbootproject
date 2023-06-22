@@ -1,4 +1,4 @@
-target/
-logs/
-.idea/
+target/*
+logs/*
+.idea/*
 .gitignore
