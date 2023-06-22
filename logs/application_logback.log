@@ -1,0 +1,41 @@
+2023-06-22 17:15:01 [http-nio-8182-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 17:15:01 [http-nio-8182-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-06-22 17:15:01 [http-nio-8182-exec-1] INFO  : Completed initialization in 1 ms
+2023-06-22 17:15:01 [http-nio-8182-exec-1] INFO  : [Start][EmployeeService][getAllEmp]
+2023-06-22 17:15:35 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 17:15:35 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-06-22 17:15:35 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-06-22 17:15:40 [restartedMain] INFO  : Starting CodeCuriousAppApplication using Java 18.0.2.1 with PID 24260 (D:\youtubechannel\workspaceteaching\intellij\springbootproject\target\classes started by rajee in D:\youtubechannel\workspaceteaching\intellij\springbootproject)
+2023-06-22 17:15:40 [restartedMain] INFO  : The following 1 profile is active: "prod"
+2023-06-22 17:15:40 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-22 17:15:40 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-22 17:15:41 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 17:15:41 [restartedMain] INFO  : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2023-06-22 17:15:42 [restartedMain] INFO  : Tomcat initialized with port(s): 8182 (http)
+2023-06-22 17:15:42 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8182"]
+2023-06-22 17:15:42 [restartedMain] INFO  : Starting service [Tomcat]
+2023-06-22 17:15:42 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 17:15:42 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-06-22 17:15:42 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2099 ms
+2023-06-22 17:15:42 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-06-22 17:15:42 [restartedMain] INFO  : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 4199dec8-f906-4602-9184-c7c61ebf9cc6
+2023-06-22 17:15:42 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-06-22 17:15:42 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:sqlserver://localhost:1433;connectRetryInterval=10;connectRetryCount=1;maxResultBuffer=-1;sendTemporalDataTypesAsStringForBulkCopy=true;delayLoadingLobs=true;useFmtOnly=false;msiTokenCacheTtl=3600;useBulkCopyForBatchInsert=false;cancelQueryTimeout=-1;sslProtocol=TLS;jaasConfigurationName=SQLJDBCDriver;statementPoolingCacheSize=0;serverPreparedStatementDiscardThreshold=10;enablePrepareOnFirstPreparedStatementCall=false;fips=false;socketTimeout=0;authentication=NotSpecified;authenticationScheme=nativeAuthentication;xopenStates=false;sendTimeAsDatetime=true;replication=false;trustStoreType=JKS;trustServerCertificate=true;TransparentNetworkIPResolution=true;iPAddressPreference=IPv4First;serverNameAsACE=false;sendStringParametersAsUnicode=true;selectMethod=direct;responseBuffering=adaptive;queryTimeout=-1;packetSize=8000;multiSubnetFailover=false;loginTimeout=30;lockTimeout=-1;lastUpdateCount=true;prepareMethod=prepexec;encrypt=true;disableStatementPooling=true;databaseName=codeCuriousDB;columnEncryptionSetting=Disabled;applicationName=Microsoft JDBC Driver for SQL Server;applicationIntent=readwrite;'
+2023-06-22 17:15:43 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 17:15:43 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 17:15:43 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2023-06-22 17:15:43 [restartedMain] INFO  : HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 17:15:43 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 17:15:44 [restartedMain] INFO  : HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+2023-06-22 17:15:44 [restartedMain] INFO  : HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 17:15:44 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 17:15:44 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 17:15:45 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-22 17:15:45 [restartedMain] INFO  : LiveReload server is running on port 35729
+2023-06-22 17:15:45 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/actuator'
+2023-06-22 17:15:45 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8182"]
+2023-06-22 17:15:45 [restartedMain] INFO  : Tomcat started on port(s): 8182 (http) with context path '/codecurious'
+2023-06-22 17:15:45 [restartedMain] INFO  : Started CodeCuriousAppApplication in 6.344 seconds (process running for 6.737)
+2023-06-22 17:17:27 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 17:17:27 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-06-22 17:17:27 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
