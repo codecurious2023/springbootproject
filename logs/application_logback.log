@@ -108,3 +108,18 @@
 2023-06-25 09:15:10 [main] INFO  : --addEmployee()--${code.curious.ownerName}
 2023-06-25 09:15:10 [main] INFO  : --getAllEmp()--${code.curious.ownerName}
 2023-06-25 09:15:10 [main] INFO  : [EmployeeControllerUnitTests][destroy]
+2023-06-25 17:18:23 [main] INFO  : Starting EmployeeControllerApiTest using Java 18.0.2.1 with PID 28424 (started by rajee in D:\youtubechannel\workspaceteaching\intellij\springbootproject)
+2023-06-25 17:18:23 [main] INFO  : The following 1 profile is active: "prod"
+2023-06-25 17:18:27 [main] INFO  : Initializing Spring TestDispatcherServlet ''
+2023-06-25 17:18:27 [main] INFO  : Initializing Servlet ''
+2023-06-25 17:18:27 [main] INFO  : Completed initialization in 2 ms
+2023-06-25 17:18:27 [main] INFO  : Started EmployeeControllerApiTest in 5.398 seconds (process running for 10.848)
+2023-06-25 17:18:28 [main] INFO  : --getEmployeeById()--8182
+2023-06-25 17:18:28 [main] INFO  : --addEmployee()--8182
+2023-06-25 17:18:28 [main] INFO  : --getAllEmp()--8182
+2023-06-25 17:18:28 [main] INFO  : [EmployeeControllerUnitTests][destroy]
+2023-06-25 17:18:28 [main] INFO  : Could not detect default configuration classes for test class [org.curious.code.EmployeeControllerUnitTest]: EmployeeControllerUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-25 17:18:28 [main] INFO  : --getEmployeeById()--${code.curious.ownerName}
+2023-06-25 17:18:28 [main] INFO  : --addEmployee()--${code.curious.ownerName}
+2023-06-25 17:18:28 [main] INFO  : --getAllEmp()--${code.curious.ownerName}
+2023-06-25 17:18:28 [main] INFO  : [EmployeeControllerUnitTests][destroy]
