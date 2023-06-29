@@ -38,6 +38,7 @@ public class EmployeeService {
     public Employee getEmployeeById(int id) {
        try {
            return employeeRepository.findById(id).get();
+
        }catch (Exception e){
            System.out.println("getEmployeeById:-"+e);
            throw new EmployeeIDNotFound("There is no employee with this id-"+id);
